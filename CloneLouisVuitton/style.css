@@ -1,0 +1,57 @@
+.navbar{
+    padding: 8px 32px;
+}
+.btn-outline-success{
+    color: chocolate;
+    border-color: chocolate;
+}
+.btn-outline-success:hover{
+    background-color: chocolate;
+    color: white;
+    border-color: chocolate;
+}
+footer{
+    background-color: #19110b;
+    font-size: 14px;
+}
+.first-line{
+    color: white;
+    border-bottom: 1px solid #392d23;
+}
+.flag{
+    color: white;
+}
+.flag-image{
+    margin: 0 0.5rem;
+}
+.second-line{
+    padding: 2rem;
+}
+.second-line a{
+    color: white;
+    text-decoration: none;
+}
+.mobile-footer{
+    color: white;
+    border-top: 1px solid #392d23;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 300;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: none;
+}
+@media screen and (max-width: 48rem) {
+    .first-line{
+        text-align: center;
+    }
+    .second-line{
+        justify-content: center;
+    }
+    .flag{
+        display: none;
+    }
+    .mobile-footer{
+        display: block;
+    }
+}

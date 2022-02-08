@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, sans-serif;
+    display: contents;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+button:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+/*상단 네비게이션바*/
+.nav-bar{
+    float: right;
+    margin: 20px;
+}
+.nav-item{
+    color: black;
+    /*text-decoration: none;*/
+    margin-right: 15px;
+}
+/*중단 메인파트*/
+.main{
+    margin-top: 300px;
+    text-align: center;
+}
+.input-area{
+    margin-top: 20px;
+}
+.input-box{
+    width: 584px;
+    height: 46px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 40px;
+}
+.search-icon{
+    position: relative;
+    left: 40px;
+    color: #9aa0a6;
+}
+.mic-icon{
+    position: relative;
+    right: 40px;
+    color: #9aa0a6;
+}
+.button-area{
+    padding-top: 18px;
+}
+.button-style{
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0px 16px;
+}
+.language{
+    padding: 0px 3px;
+    color: #1a0dab;
+}
+.language-area{
+    margin-top: 18px;
+}
+/*하단 메뉴바*/
+.footer{
+    position: absolute;
+    bottom: 0px;
+    background: #f2f2f2;
+    width: 100%;
+    font-size: 15px;
+}
+.first-line{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    color: rgba(0,0,0,.54);
+}
+.second-line{
+    padding: 15px 30px;
+}
+.second-item{
+    padding-right: 15px;
+    color: rgba(0,0,0,.54);
+}
+.second-line-right{
+    float: right;
+}
